@@ -1,0 +1,52 @@
+html, body{
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+nav{
+  background-color:#2C3E50;
+  color:#E74C3C;
+}
+
+.no-margin{
+  margin: 0px;
+}
+
+.no-list{
+  list-style-type: none;
+}
+
+.large-padding{
+  padding: 5px 5px;
+}
+
+a, a:visited{
+  color: inherit;
+  text-decoration: none;
+}
+
+.btn_class{
+  background-color: #2C3E50;
+  color:#E74C3C;
+}
+
+.field{
+  margin-top: 1em;
+}
+
+.form-control{
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  font-family: 'Lato', sans-serif;
+}
+
+.error-message{
+  background-color: #2C3E50;
+  color:#E74C3C;
+  margin-top: 1em;
+}

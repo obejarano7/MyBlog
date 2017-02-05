@@ -6,9 +6,22 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   </head>
 
   <body>
+    <header>
+      <nav class="large-padding">
+        <ul class="no-list row center-md middle-md ">
+          <li class="col-md"><h1 class="no-margin">CodeTalker</h1></li>
+          <li class="col-md"><%=link_to "Inicio", articles_path%></li>
+          <li class="col-md">Programación</li>
+          <li class="col-md">Diseño</li>
+          <li class="col-md">Tecnología</li>
+        </ul>
+      </nav>
+    </header>
+
     <%= yield %>
   </body>
 </html>
